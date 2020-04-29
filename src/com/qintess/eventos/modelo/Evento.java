@@ -117,7 +117,7 @@ public class Evento {
 	}
 
 	public int getQtdIngressos() {
-		return qtdIngressos;
+		return qtdIngressos = qtdIngressos - CompraEvento;
 	}
 
 	public void setQtdIngressos(int qtdIngressos) {
